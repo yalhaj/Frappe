@@ -2,6 +2,7 @@
 # For license information, please see license.txt
 
 # import frappe
+#print("Hi")
 from frappe.model.document import Document
 
 class LibraryMember(Document):
