@@ -11,10 +11,14 @@
   "article_name",
   "image",
   "author",
-  "description",
+  "section_break_bnpic",
   "isbn",
   "status",
-  "publisher"
+  "publisher",
+  "section_break_se1tj",
+  "description",
+  "tab_break_aprgk",
+  "route"
  ],
  "fields": [
   {
@@ -28,6 +32,7 @@
   {
    "fieldname": "image",
    "fieldtype": "Attach Image",
+   "in_preview": 1,
    "label": "Image "
   },
   {
@@ -49,17 +54,36 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status ",
-   "options": "Type Issued\ntype Available"
+   "options": "Issued\nAvailable"
   },
   {
    "fieldname": "publisher",
    "fieldtype": "Data",
    "label": "Publisher "
+  },
+  {
+   "fieldname": "section_break_bnpic",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_se1tj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tab_break_aprgk",
+   "fieldtype": "Tab Break",
+   "label": "Tab2"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
+ "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-20 19:32:39.596503",
+ "modified": "2024-09-12 21:39:50.497100",
  "modified_by": "Administrator",
  "module": "Library Managment system",
  "name": "Article",
@@ -78,6 +102,27 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarain",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library Member",
+   "share": 1
   }
  ],
  "sort_field": "modified",
