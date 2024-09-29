@@ -1,0 +1,105 @@
+{
+ "charts": [
+  {
+   "chart_name": "\u0639\u062f\u062f \u0627\u0644\u0645\u0642\u0627\u0644\u0627\u062a \u0627\u0644\u0645\u062a\u0627\u062d\u0629",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u0642\u0627\u0644\u0627\u062a \u0627\u0644\u0645\u062a\u0627\u062d\u0629"
+  }
+ ],
+ "content": "[{\"id\":\"W--5sPRmjn\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">LibYousif</span>\",\"col\":12}},{\"id\":\"CxsEOY7dtU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Artical Number\",\"col\":3}},{\"id\":\"ut97ytn6VP\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0639\u062f\u062f \u0627\u0644\u0645\u0642\u0627\u0644\u0627\u062a \u0627\u0644\u0645\u062a\u0627\u062d\u0629\",\"col\":9}},{\"id\":\"DYoVgz6yd1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Spmmq40-kr\",\"type\":\"card\",\"data\":{\"card_name\":\"Master Data\",\"col\":4}},{\"id\":\"vmDzlCidgo\",\"type\":\"card\",\"data\":{\"card_name\":\"Transaction\",\"col\":4}}]",
+ "creation": "2024-09-28 18:55:24.542070",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-monthly-rank",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "LibYousif",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transaction",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "library Transaction",
+   "link_count": 0,
+   "link_to": "Library Transaction",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Library Settings",
+   "link_count": 0,
+   "link_to": "Library Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Data",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Artical",
+   "link_count": 0,
+   "link_to": "Article",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Library Member",
+   "link_count": 0,
+   "link_to": "Library Member",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Library Membership",
+   "link_count": 0,
+   "link_to": "Library Membership",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-09-29 17:35:37.414284",
+ "modified_by": "Administrator",
+ "module": "Library Managment system",
+ "name": "LibYousif",
+ "number_cards": [
+  {
+   "label": "Artical Number",
+   "number_card_name": "Artical Number"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 41.0,
+ "shortcuts": [],
+ "title": "LibYousif"
+}
